@@ -1,5 +1,6 @@
 @echo off
 set "VIRTUAL_ENV=C:\Users\mbudnick\Documents\django-ecommerce\buyBrush"
+set IPYTHONDIR=%VIRTUAL_ENV%\.ipython
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

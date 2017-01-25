@@ -1,6 +1,7 @@
 @echo off
 
 set VIRTUAL_ENV=
+set IPYTHONDIR=
 
 REM Don't use () to avoid problems with them in %PATH%
 if not defined _OLD_VIRTUAL_PROMPT goto ENDIFVPROMPT
