@@ -1,0 +1,463 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "inst",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"di",
+				"Diffy Compare"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Diffy Compare"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"diff",
+				"Diffy Compare"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"\\",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/logs/scheduler/scheduler.log",
+		"/C/apps/apache-tomcat-7.0.47/logs/myteam.log",
+		"/C/apps/apache-tomcat-7.0.47/logs/enet-menu.log",
+		"/C/Users/mbudnick/svn-commit.2.tmp",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/conf/scheduler/ConfigurationParameters.properties",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-GSC-178 Scheduler Email/ConfigurationParameters.properties",
+		"/C/apps/apache-tomcat-7.0.47/logs/supportEnhancements.log",
+		"/C/apps/apache-tomcat-7.0.47/logs/users.log",
+		"/C/apps/apache-tomcat-7.0.47/logs/resources.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-SBA-122 Config/VDP Prod/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-SBA-122 Config/VDP Prod/VDBConfiguration.properties",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/logs/vdp/vdp-requests.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/logs/vdp/vdp.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/tools/monitor/denodo-monitor/conf/ConfigurationParameters.properties",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-INU-094 Default config/vdp-connections.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-INU-094 Default config/vdp-queries.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/NSO-2360 Character Encoding/20170123_files/denodo60/logs/vdp/vdp.log",
+		"/C/Users/mbudnick/svnrepository/svn-commit.tmp",
+		"/C/Users/mbudnick/svnrepository/svn-commit.2.tmp",
+		"/C/Users/mbudnick/svn-commit.tmp",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-GSC-178 Scheduler Email/scheduler.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-GSC-178 Scheduler Email/scheduler (1).log",
+		"/C/Users/mbudnick/svn-commit.3.tmp",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-INU-094 Default config/vdp-resources.log",
+		"/C/svn-commit.2.tmp",
+		"/C/WINDOWS/system32/svn-commit.3.tmp",
+		"/C/svn-commit.tmp",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-IHS-124 ISS Link/logs/vdp_stage_12.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-SBA-155 Config/VDP Prod/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-SBA-155 Config/VDP Prod/VDBConfiguration.properties",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-SBA-155 Config/VDP Prod/vdp-isst.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/conf/vdp-admin/VDBAdminConfiguration.properties",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/conf/vdp/VDBConfiguration.properties",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-GD-091 Update Warning/VDP Client/logs/vdp-admin/vdp-admin.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/resources/apache-tomcat/conf/tomcat.properties",
+		"/C/Users/mbudnick/Documents/Denodo/Software/dt-datahub/datahub/src/main/vql/datahub_commons.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-INT-097 HTTP Too long/vdp.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/tools/monitor/denodo-monitor/logs/vdp-queries.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/January 2017/SP-INT-097 HTTP Too long/vdp-connections.log",
+		"/C/Users/mbudnick/Documents/Denodo/Software/dt-datahub/datahub/src/main/vql/datahub_alpha.vql",
+		"/C/apps/apache-tomcat-7.0.47/logs/support.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/logs/vdp-admin/vdp-admin.log",
+		"/C/Users/mbudnick/curl-7.52.1/src/url.sh",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/logs/apache-tomcat/denodows.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/logs/apache-tomcat/tomcat.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/November 2016/SP-TRA-2285-16-47 5.0 shit/Full_PRD_Export/Full_PRD_Export.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-TRA-2484 Best Practices/vdp-threads.log.2016-12-21",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-TRA-2484 Best Practices/vdp-resources.log.2016-12-21",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2488 Memory/monitor/vdp-threads.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2488 Memory/monitor/vdp-queries.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2488 Memory/monitor/vdp-resources.log",
+		"/C/Training_Denodo/logs/apache-tomcat/denodows.log",
+		"/C/Training_Denodo/logs/apache-tomcat/tomcat.log",
+		"/C/Training_Denodo/conf/vdp/VDBConfiguration.properties",
+		"/C/Users/mbudnick/curl-7.52.1/src/url.bat",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/resources/apache-tomcat/logs/localhost.2017-01-13.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2488 Memory/monitor/sockets.log",
+		"/C/Users/mbudnick/Documents/Denodo/Backups/Denodo_Official/denodo_training_full_export_ARIEL.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs12072016/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs12072016/denodows.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/monitorlogs/denodows.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/monitorlogs12122016/denodows.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-INT-2415 Slow Query/TEST-bv_YADCDistiBookCost.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/NSO-2360 Character Encoding/client_encoding/eucdb.properties",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 32-bit/conf/vdp/VDBConfiguration.properties",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/metadata/db/derby.log",
+		"/C/Training_Denodo/logs/vdp/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-INT-2380 Uppercase Query/countrylocation_dec19.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-INT-2415 Slow Query/vdp-resources.log",
+		"/C/Users/mbudnick/Documents/Denodo/Teaching/OnDemand/DEN60EDU0130 REST Web Services/bv_sf_account.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-INT-2415 Slow Query/DEV-bv_YADCDistiBookCost.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs12072016/tomcat.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/monitorlogs12122016/vdp-queries.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/November 2016/SP-GCA-2314-16-47 Upgrade Issues/Logs after restarting/Monitor/post-vdp-resources.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/logs/apache-tomcat/denodo-tomcat.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/NSO-2360 Character Encoding/client_encoding/eucdb.vql",
+		"/C/Users/mbudnick/AppData/Roaming/Sublime Text 3/Packages/Diffy/Diffy.sublime-settings",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/monitorlogs.zip/monitorlogs/vdp-threads.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/Logs12072016/monitorlogs/vdp-queries.log.2016-12-06",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/logs12122016/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/logs12122016/vdp-queries.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/Logs12072016/vdp-queries.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/monitorlogs12122016/vdp-threads.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/monitorlogs/vdp-threads.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/monitorlogs.zip/monitorlogs/vdp-threads.log.2016-12-06",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/monitorlogs.zip/monitorlogs/processes.log.2016-12-06",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/monitorlogs.zip/monitorlogs/processes.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/monitorlogs12122016/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/monitorlogs.zip/monitorlogs/vdp-queries.log.2016-12-06",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/monitorlogs/denodo-tomcat.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/monitorlogs/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs 1213/monitorlogs/tomcat.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/monitorlogs.zip/monitorlogs/sockets.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-UMO-2420 Service Stopping/logs11142016/logs/vdp/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/NY-2405/tomcat.properties",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-INT-2415 Slow Query/vdp/dev_vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-UMO-2420 Service Stopping/logs/vdp/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-UMO-2420 Service Stopping/logs/launcher/denodo-launcher.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-UMO-2420 Service Stopping/logs12122016/logs/vdp/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-UMO-2420 Service Stopping/logs12122016/logs/vdpService.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 32-bit/resources/apache-tomcat/conf/tomcat.properties",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 32-bit/logs/vdp/vdp.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 32-bit/logs/vdp-admin/vdp-admin.log",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 32-bit/conf/vdp-admin/VDBAdminConfiguration.properties",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 5.5 64-bit/resources/apache-tomcat/conf/tomcat.properties",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/SP-GAP-2386-16-47 Web Services/Logs12072016/denodo-tomcat.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2367 Invalid credentials/MDM.zip/MDM/VDPLogs/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345/subQueryReordered.vql",
+		"/C/Users/mbudnick/DenodoSoftware/Denodo 6.0 64-bit/testing.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/VDP_DB_Logs_TRACES/VDPLogs/vdp.log.1",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/VDP_DB_Logs_TRACES/VDPLogs/vdp.log.7",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/VDP_DB_Logs_TRACES/derivatives_reporting.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/VDP_DB_Logs_TRACES/Simplify_ON_Costoptimized_OFF .txt",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/VDP_DB_Logs_TRACES/Simplify_OFF_Costoptimized_OFF .txt",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2367 Invalid credentials/db_mdm_12062016/db_mdm_12062016.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/stats.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/dv_exposures_and_hedges_QA.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/simplify off issue/dv_exposure_and_hedges_PROD.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/VDP_DB_Logs_TRACES/VDPLogs/vdp-requests.log",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/December 2016/GCA-2345 Simplify off/VDP_DB_Logs_TRACES/VDPLogs/vdp.log",
+		"/C/Users/mbudnick/Documents/Denodo/Denodo_5.0_64_bit/conf/vdp/VDBConfiguration.properties",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/November 2016/SP-TRA-2285-16-47 5.0 shit/fuckthiscase",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/November 2016/GCA-2317 Meeting stuff/DerivativesReporting_11302016.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/November 2016/SP-GCA-2326-16-47 Oracle Delegation/VQL from Denodo60.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/November 2016/SP-GCA-2326-16-47 Oracle Delegation/dv_cash_mgmt_oper_access03_distinct.vql",
+		"/C/Users/mbudnick/Documents/Denodo/Support_Cases/Cases/November 2016/SP-GCA-2326-16-47 Oracle Delegation/VQL from Denodo 55.vql",
+		"/C/Users/mbudnick/AppData/Local/Temp/Rar$DIa0.046/VQL from Denodo60.vql",
+		"/C/Users/mbudnick/Documents/Expression/Expression Encoder/Output/SEVILLE 11-29-2016 1.18.13 PM/Settings.dat"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Authenticating admin against VDP",
+			"com.denodo.vdb.vdbinterface.client.VDBProxy",
+			"1:52",
+			"ERROR",
+			"error",
+			"ssl",
+			"derby",
+			"ssl",
+			"&",
+			"?",
+			"import ldap",
+			"create or replace datasource",
+			"timed_waiting",
+			"timed waiting",
+			"blocked",
+			"thread dump",
+			"blocked",
+			"cancelStatementsEnabled",
+			"sens",
+			"9",
+			"ds_salesforce",
+			"select a11.`coal_season`",
+			"endrequest",
+			"12-07T11",
+			"12-07",
+			"12-07T11:",
+			"not deplo",
+			"T18",
+			"group",
+			"4231",
+			"2016-12-12T18:00",
+			"359",
+			"1207",
+			"120711",
+			"1207113",
+			"201612061800",
+			"2016-12-06",
+			"2016-12-06T18",
+			"1800",
+			"180014",
+			"3592",
+			"3592.631",
+			"201612061800",
+			"20161206174",
+			"20161206175",
+			"201612061759",
+			"2016120617",
+			"2016-12-06T18",
+			"2016-12-06",
+			"2016-12-07T",
+			"2016-12-07T18",
+			"2016-12-06T18",
+			"2016120618",
+			"java.net.SocketException: Broken pipe",
+			"Servlet.service()",
+			"ERROR 20161206",
+			"FATAL",
+			"20161206",
+			"jul28",
+			"fatal",
+			"2016-12-09",
+			"keyst",
+			"ssl",
+			"ERROR 2016120618",
+			"ERROR",
+			"20161206",
+			"20161207",
+			"tomcat",
+			"2016120618",
+			"20161206172",
+			"2016120617",
+			"20161206",
+			"ERROR",
+			"201612061800",
+			"2016120618003",
+			"ERROR",
+			"tomcat",
+			"formatdate",
+			"dv_myexposure_and_reporting_dates",
+			"sqlsentence",
+			"bv_ds_edw_reporting_date_exposure_management",
+			"case",
+			"bv_mytrs_mytrs_orders",
+			"bv_mytrs_mytrs_orders.maturity_date",
+			"formatdate('Q",
+			"formatdate",
+			"v_dd_mdm_mkt_data_val_j_sbscr_genrc_flat",
+			"formatdate('Q",
+			"formatdate",
+			"999",
+			"ngtrs",
+			"dv_cash_mgmt_oper_access03_distinct",
+			"case WHEN (bv_mytrs_instrument_type.my_trs_instrument_type is not null ) \nTHEN case WHEN (bv_mytrs_instrument_type.my_trs_instrument_type = 'INST_FXSWAP') THEN 'Swap'",
+			"case WHEN (bv_mytrs_instrument_type.my_trs_instrument_type is not null ) \nTHEN case WHEN (bv_mytrs_instrument_type.my_trs_instrument_type = 'INST_FXSWAP') THEN 'Swap' \nELSE bv_dds_hedges_exposure_management.name END ELSE bv_dds_hedges_exposure_management.name END",
+			"= 'INST_FXSWAP'",
+			"INST_FXSWAP",
+			"INST_FX",
+			"INSTFS",
+			"INST",
+			"swap",
+			"case",
+			"jdbc:jtds:sqlserver://CGYSDSBP02/DENODO_CACHE",
+			"cub001_valuation_detail",
+			"cub001_valuation_detail\n",
+			"spot_usd_cad_rate",
+			"fact_valuation_real_time",
+			"cub001_valuation_detail",
+			"spot_usd_cad_rate",
+			"fact_valuation_real_time",
+			"fact_valuation_realized",
+			"stg_valuation_detail_unrealized_records",
+			"from",
+			"database",
+			"cub001",
+			"cub",
+			"database",
+			"\\sERROR:\\s",
+			"error",
+			"active conections",
+			"trunc",
+			"p_bv_idwt_fin_payment_test",
+			"cast",
+			"schandri",
+			"ddr_error_desc_report",
+			"dv_disb_dshbrd04_funds_transfer_metrics",
+			"user",
+			"error",
+			"schandrika"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"%26",
+			"/",
+			"'",
+			"\"",
+			"'",
+			"/",
+			"",
+			" ",
+			"\\s"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "buyBrush.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
