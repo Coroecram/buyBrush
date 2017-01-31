@@ -16,8 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = qqqqq
-
+EMAIL_HOST_USER = uuiuiuiuiu
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
