@@ -16,7 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = ddd
+EMAIL_HOST_USER = qqqqq
 
 
 # Quick-start development settings - unsuitable for production
