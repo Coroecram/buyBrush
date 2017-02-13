@@ -40,11 +40,11 @@
     {% include 'navbar.html' %}
 
     <div class="container theme-showcase" role="main">
+      {% block jumbotron %}
+      {% endblock %}
       {% block content %}
       {% endblock %}
       {% block contact %}
-      {% endblock %}
-      {% block jumbotron %}
       {% endblock %}
       {% block styles %}
       {% endblock %}

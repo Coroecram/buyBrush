@@ -8,14 +8,42 @@
   </style>
 {% endblock %}
 
-{% block content %}
-  <h1>Hello WORLD</h1>
-{% endblock %}
-
-
 {% block jumbotron %}
   <div class="jumbotron">
     <h1>Theme example</h1>
     <p>This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point to create something more unique by building on or modifying it.</p>
   </div>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+        <div class="col-md-4">
+          {% if request.user.is_authenticated %}
+            <h3>Hello {{ request.user }}</h3>
+          {% else %}
+            <form class="login" method="POST" action="{% url 'account_login' %}">
+            {% csrf_token %}
+
+              <div id="div_id_login" class="form-group"> <label for="id_login" class="control-label  requiredField">
+                            Login<span class="asteriskField">*</span> </label> <div class="controls "> <input autofocus="autofocus" class="textinput textInput form-control" id="id_login" name="login" placeholder="Username or e-mail" type="text" required=""> </div> </div> <div id="div_id_password" class="form-group"> <label for="id_password" class="control-label  requiredField">
+                            Password<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_password" name="password" placeholder="Password" type="password" required=""> </div> </div> <div class="form-group"> <div id="div_id_remember" class="checkbox"> <label for="id_remember" class=""> <input class="checkboxinput" id="id_remember" name="remember" type="checkbox">
+                                Remember Me
+                            </label> </div> </div>
+                <a class="btn btn-link" href="{% url 'account_reset_password' %}">Forgot Password?</a>
+                <a class="btn btn-link" href="{% url 'account_signup' %}">Sign Up</a>
+                <button class="btn btn-default" type="submit">Sign In</button>
+              </form>
+          {% endif %}
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+        </div>
+      </div>
 {% endblock %}
