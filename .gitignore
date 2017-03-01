@@ -1,1 +1,7 @@
-src/buyBrush/settings.py
+*.pyc
+
+settings.py
+
+*.json 
+
+media/temp
